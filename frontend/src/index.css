@@ -1,0 +1,61 @@
+body {
+    background-color: #1a1a1d;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.big-header {
+    font-size: 50px;
+    color: #41b3a3;
+}
+
+.blue {
+    color: #41b3a3;
+}
+
+.main-box {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.main-box > h1 {
+    text-align: center;
+}
+
+.info-box {
+    text-align: center;
+}
+.info-box > p {
+    color: white;
+    font-size: 20px;
+}
+.info-box > h1.info-box-header {
+    margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+}
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centered-plot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plot {
+    margin-bottom: 50px;
+}
+
+.overview {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
